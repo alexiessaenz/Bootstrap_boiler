@@ -1,15 +1,15 @@
-html, body {
-    /* height: 100%;
-    width: 100%; */
-    margin: 0;
-    }
+
 * {
     border: 1px solid red;
 
 }
 .container{
-    width: 90%;
-    margin: 10px;
+    /* width: 90%; */
+    /* margin: 10px; */
+    /* position: inherit; */
+    background-color: aqua;
+    /* flex-wrap: wrap; */
+    padding: 5px;
     display: flex;
     flex-direction: column;
     transition: flex-direction 1s ;
@@ -19,14 +19,18 @@ html, body {
 }
 
 .tittle {
-    /* width: 100%; */
+    position: inherit;
+    /* float: left; */
+    width: 90%;
     padding: 10px;
-    
-    align-items: center;
-    justify-content: center;
+    background-color: darkgoldenrod;
+    /* align-items: center;
+    justify-content: center; */
 }
 .content{
-    /* width: 100%; */
+    width: 90%;
+    padding: 10px;
+    background-color: beige;
 }
 h1{
     text-align: center;
