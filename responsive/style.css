@@ -1,0 +1,22 @@
+:root{
+    --color-principal: #4f4d4de2;
+}
+
+.contenedor {
+    padding: 0.25rem;
+    display: flex;
+    background-color: aqua;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.item {
+    background-color: mediumseagreen;
+    width: 10rem;
+    padding: 0.25rem;
+    color: var(--color-principal);
+}
